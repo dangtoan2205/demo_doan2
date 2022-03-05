@@ -1,0 +1,54 @@
+.register_form{
+    text-align: center;
+    height: 21em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login_content{
+    width: 40%;
+    flex-flow: row wrap;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgb(146, 160, 133);
+}
+.login_content form{
+    display: grid;
+    line-height: 3;
+}
+.login_content form div input{
+    width: 80%;
+    height: 70%;
+}
+.login_content form div .btn{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    line-height: 2.3;
+}
+.submit{
+    display: block  ;
+}
+.btn-default{
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    height: 34px;
+}
+.btn-default .btn{
+    display: block;
+}
+.login_content form div .btn:hover{
+    color: #ffeb00;
+}
+.subb:hover , .bnt-nad:hover{
+    border: 1px solid #6835353b;
+    background-color: #0f7c72;
+    border-radius: 18px;
+}
+.bnt-nad{
+    border: none;
+    background: #92a085;
+    color: aliceblue;
+}
